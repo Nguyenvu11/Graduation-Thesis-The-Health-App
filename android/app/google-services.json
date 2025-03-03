@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734207002613",
+    "project_id": "healththeapp",
+    "storage_bucket": "healththeapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734207002613:android:1374d151751641871c42bc",
+        "android_client_info": {
+          "package_name": "com.heal_the_health_app.heal_the_health_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUQqqtTd3CMQb4Et-Yxtfk1MzIj49Yd_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
