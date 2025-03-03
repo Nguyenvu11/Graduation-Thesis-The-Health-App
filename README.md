@@ -6,17 +6,16 @@
   To solve the issue of healthcare record management and outreach of these facilities.
 
 ## **Goals:-**
-   The main aim of our app is to provide patients with a disease-prediction facility, treatment guidance, etc and doctors with an easy-to-use patient        record book.
+   The main aim of our app is to provide patients with a disease-prediction facility, treatment guidance, etc and doctors with an easy-to-use patient record book.
    
  ## **Methodology:-**
  
-To accomplish above mentioned goal we decided to create an app that can help ease the lives of doctors and patients.     
+To accomplish above mentioned goal I decided to create an app that can help ease the lives of doctors and patients.     
      
-In initial stages the UI for the app was designed using Figma. The app has been made using Flutter and Dart. This project began by making an user Interface for bot doctors and patients. UI is different for both. Users can log in as either patient or doctor. Then after creating login and signup page the input taken from user (i.e user credentials) on these pages is saved into firebase database. Thus, any input taken tereafter is saved into the firebase. The app has also been integrated with various machine learning models to predict diseases which is the main feature of our app. The computation is done using AMD Insataces service and then the results are displayed. Models have been trained from datasets obtained from Kaggle. Various Regression models have been utilised to optimise memory usage and accuracy. The trained models have been converted into APIs using the Flask library.                                    
-The app also has a chatbot which is made using Dialogflow service of GOOGLE. The Dialogflow API has been used to integrate the chatbot with the app. Google Cloud platform has been used to deploy the APIs The chatbot has been trained for basic interactions. It can trained for more complex interactions like booking appointments, setting alarms. 
+he app is built with Flutter and Dart, providing separate interfaces for doctors and patients. Users can log in as either a patient or a doctor. The login and signup pages store user credentials in Firebase, ensuring secure authentication and data storage.
 
+The core feature of the app is disease prediction, powered by machine learning models. These models were trained on medical datasets and converted into APIs using Flask. The app processes user-reported symptoms and predicts potential diseases along with preventive measures. The processed data is stored using Firebase, enabling seamless interaction.
 
+Additionally, the app includes a chatbot that provides health-related assistance. Unlike traditional chatbots, this system is based on Natural Language Processing (NLP) and symptom-based disease prediction. The chatbot analyzes user symptoms, predicts possible diseases, and offers preventive advice.
 
-## Results:-
-
-Our app can accomplish tasks of storing and retrieving all the relevent information.It also accurately predict whether the person has a disesase or not (41 basic and 8 advanced tests) based on inputs given in the form while taking disease prediction test . If the person has a disease then it also suggests dos and don'ts, insurance policies,etc. All the past medical recodrs of the patients are also stored and visible. The patient is also able to maintain a medical diary. The app gives all the desired output to the corresponding inputs. Thus, the app functions the way it should.   
+This project integrates AI-driven disease prediction and chatbot capabilities, enhancing accessibility and efficiency in healthcare. Future improvements could include advanced interactions like appointment scheduling and reminders.advanced tests) based on inputs given in the form while taking disease prediction test . If the person has a disease then it also suggests dos and don'ts, insurance policies,etc. All the past medical recodrs of the patients are also stored and visible. The patient is also able to maintain a medical diary. The app gives all the desired output to the corresponding inputs. Thus, the app functions the way it should.   
