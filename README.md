@@ -1,12 +1,12 @@
 # Heal the Health App
 
-## **Objective:-**
+## **Objective:**
   To solve the issue of healthcare record management and outreach of these facilities.
 
-## **Goals:-**
+## **Goals:**
    The main aim of our app is to provide patients with a disease-prediction facility, treatment guidance, etc and doctors with an easy-to-use patient record book.
    
- ## **Methodology:-**
+ ## **Methodology:**
  
 To accomplish above mentioned goal I decided to create an app that can help ease the lives of doctors and patients.     
      
