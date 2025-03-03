@@ -10,7 +10,7 @@
  
 To accomplish above mentioned goal I decided to create an app that can help ease the lives of doctors and patients.     
      
-he app is built with Flutter and Dart, providing separate interfaces for doctors and patients. Users can log in as either a patient or a doctor. The login and signup pages store user credentials in Firebase, ensuring secure authentication and data storage.
+The app is built with Flutter and Dart, providing separate interfaces for doctors and patients. Users can log in as either a patient or a doctor. The login and signup pages store user credentials in Firebase, ensuring secure authentication and data storage.
 
 The core feature of the app is disease prediction, powered by machine learning models. These models were trained on medical datasets and converted into APIs using Flask. The app processes user-reported symptoms and predicts potential diseases along with preventive measures. The processed data is stored using Firebase, enabling seamless interaction.
 
